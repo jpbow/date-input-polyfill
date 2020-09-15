@@ -3,7 +3,10 @@ Just include this simple script and IE, Firefox, and OS X Safari will support `<
 
 Support dynamically created inputs, so can be used in single page applications.
 
-Forked from [nodep-date-input-polyfill](https://github.com/brianblakely/nodep-date-input-polyfilll). Continuing as a separate project.
+Forked from [nodep-date-input-polyfill](https://github.com/jcgertig/date-input-polyfill)
+
+Includes the pull request [#50](https://github.com/jcgertig/date-input-polyfill/pull/50) to fix
+onChange handlers not being fired in modern browsers.
 
 ## Install
 `npm install --save date-input-polyfill`
